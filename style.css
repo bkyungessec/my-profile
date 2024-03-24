@@ -1,0 +1,139 @@
+
+body {
+	background: rgb(240,240,240);
+	background-image: linear-gradient(to bottom right,skyblue, white);
+	color: #71b3dc;
+	font-family: Lato;
+	font-size: 17px;
+}
+
+
+.btn-blue{
+	background-color:#71b3dc;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 50px;
+	width:180px;
+	display:inline-block;
+	font-size:18px;
+	transition-duration: 0.4s;
+}
+
+.btn-blue:hover{
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #a8d4ec;
+}
+
+
+h1{
+	color:#71b3dc;
+	font-size: 50px;
+	font-family: "Cormorant Garamond", serif;
+  	font-weight: 600;
+  	font-style: bold;
+  	text-align: center;
+}
+
+h2{
+	color: #739fcd;
+}
+
+h3{
+	font-size:22px;
+	color: #739fcd;
+}
+
+p{
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+}
+
+#profile {
+	width:160px;
+	text-align:center;
+
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+
+.style{
+	background: white;
+	padding: 30px;
+	margin: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:1.5pc;
+	text-align:center;
+	font-size: 25px;
+}
+
+.card-white{
+	background: white;
+	padding: 30px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:1.5pc;
+	text-align: center;
+}
+
+.card-white4{
+	background: white;
+	text-align: center;
+	padding: 20px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:1.5pc;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+	color: skyblue;
+}
+
+
+.container{
+	width:800px;
+	margin:40px auto;
+}
+
+@media (max-width: 760px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
