@@ -90,6 +90,18 @@ a:hover{
 	text-align: center;
 }
 
+.column {
+	 float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .card-white4{
 	background: white;
 	text-align: center;
